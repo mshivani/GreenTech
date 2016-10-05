@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BD96551D9B4B0F00B78D4A /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD96541D9B4B0F00B78D4A /* MyCustomTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		13C68C011D9A032D00371887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C001D9A032D00371887 /* AppDelegate.swift */; };
+		13C68C031D9A032D00371887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C021D9A032D00371887 /* ViewController.swift */; };
+		13C68C061D9A032D00371887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C68C041D9A032D00371887 /* Main.storyboard */; };
+		13C68C081D9A032D00371887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C68C071D9A032D00371887 /* Assets.xcassets */; };
+		13C68C0B1D9A032D00371887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C68C091D9A032D00371887 /* LaunchScreen.storyboard */; };
+		13C68C161D9A032D00371887 /* GreenTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C151D9A032D00371887 /* GreenTechTests.swift */; };
+		13C68C211D9A032D00371887 /* GreenTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C201D9A032D00371887 /* GreenTechUITests.swift */; };
+		13C68C311D9A086D00371887 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C301D9A086D00371887 /* LeftSideViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		13C68C661D9A0E3500371887 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C5E1D9A0E3500371887 /* MMDrawerBarButtonItem.m */; settings = {ASSET_TAGS = (); }; };
+		13C68C671D9A0E3500371887 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C601D9A0E3500371887 /* MMDrawerController.m */; settings = {ASSET_TAGS = (); }; };
+		13C68C681D9A0E3500371887 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C631D9A0E3500371887 /* MMDrawerVisualState.m */; settings = {ASSET_TAGS = (); }; };
+		13C68C691D9A0E3500371887 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C68C651D9A0E3500371887 /* UIViewController+MMDrawerController.m */; settings = {ASSET_TAGS = (); }; };
+		13F4D1911D9B5962002F2777 /* EducationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F4D1901D9B5962002F2777 /* EducationalViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		13F4D1931D9B5AC9002F2777 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F4D1921D9B5AC9002F2777 /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		13F4D1951D9B5C35002F2777 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F4D1941D9B5C35002F2777 /* UploadViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13C68C121D9A032D00371887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C68BF51D9A032D00371887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C68BFC1D9A032D00371887;
+			remoteInfo = GreenTech;
+		};
+		13C68C1D1D9A032D00371887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C68BF51D9A032D00371887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C68BFC1D9A032D00371887;
+			remoteInfo = GreenTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BD96541D9B4B0F00B78D4A /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		13C68BFD1D9A032D00371887 /* GreenTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C68C001D9A032D00371887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13C68C021D9A032D00371887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13C68C051D9A032D00371887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13C68C071D9A032D00371887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C68C0A1D9A032D00371887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13C68C0C1D9A032D00371887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C68C111D9A032D00371887 /* GreenTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C68C151D9A032D00371887 /* GreenTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTechTests.swift; sourceTree = "<group>"; };
+		13C68C171D9A032D00371887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C68C1C1D9A032D00371887 /* GreenTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C68C201D9A032D00371887 /* GreenTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTechUITests.swift; sourceTree = "<group>"; };
+		13C68C221D9A032D00371887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C68C301D9A086D00371887 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		13C68C5C1D9A0E3500371887 /* GreenTech-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreenTech-Bridging-Header.h"; sourceTree = "<group>"; };
+		13C68C5D1D9A0E3500371887 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		13C68C5E1D9A0E3500371887 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		13C68C5F1D9A0E3500371887 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		13C68C601D9A0E3500371887 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		13C68C611D9A0E3500371887 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		13C68C621D9A0E3500371887 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		13C68C631D9A0E3500371887 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		13C68C641D9A0E3500371887 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		13C68C651D9A0E3500371887 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		13F4D1901D9B5962002F2777 /* EducationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationalViewController.swift; sourceTree = "<group>"; };
+		13F4D1921D9B5AC9002F2777 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		13F4D1941D9B5C35002F2777 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C68BFA1D9A032D00371887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C68C0E1D9A032D00371887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C68C191D9A032D00371887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C68BF41D9A032D00371887 = {
+			isa = PBXGroup;
+			children = (
+				13C68BFF1D9A032D00371887 /* GreenTech */,
+				13C68C141D9A032D00371887 /* GreenTechTests */,
+				13C68C1F1D9A032D00371887 /* GreenTechUITests */,
+				13C68BFE1D9A032D00371887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13C68BFE1D9A032D00371887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C68BFD1D9A032D00371887 /* GreenTech.app */,
+				13C68C111D9A032D00371887 /* GreenTechTests.xctest */,
+				13C68C1C1D9A032D00371887 /* GreenTechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C68BFF1D9A032D00371887 /* GreenTech */ = {
+			isa = PBXGroup;
+			children = (
+				13C68C411D9A0C2900371887 /* MySideMenu */,
+				13C68C001D9A032D00371887 /* AppDelegate.swift */,
+				13C68C021D9A032D00371887 /* ViewController.swift */,
+				13C68C041D9A032D00371887 /* Main.storyboard */,
+				13C68C071D9A032D00371887 /* Assets.xcassets */,
+				13C68C091D9A032D00371887 /* LaunchScreen.storyboard */,
+				13C68C0C1D9A032D00371887 /* Info.plist */,
+				13C68C301D9A086D00371887 /* LeftSideViewController.swift */,
+				13BD96541D9B4B0F00B78D4A /* MyCustomTableViewCell.swift */,
+				13F4D1901D9B5962002F2777 /* EducationalViewController.swift */,
+				13F4D1921D9B5AC9002F2777 /* SearchViewController.swift */,
+				13F4D1941D9B5C35002F2777 /* UploadViewController.swift */,
+			);
+			path = GreenTech;
+			sourceTree = "<group>";
+		};
+		13C68C141D9A032D00371887 /* GreenTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				13C68C151D9A032D00371887 /* GreenTechTests.swift */,
+				13C68C171D9A032D00371887 /* Info.plist */,
+			);
+			path = GreenTechTests;
+			sourceTree = "<group>";
+		};
+		13C68C1F1D9A032D00371887 /* GreenTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13C68C201D9A032D00371887 /* GreenTechUITests.swift */,
+				13C68C221D9A032D00371887 /* Info.plist */,
+			);
+			path = GreenTechUITests;
+			sourceTree = "<group>";
+		};
+		13C68C411D9A0C2900371887 /* MySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				13C68C5D1D9A0E3500371887 /* MMDrawerBarButtonItem.h */,
+				13C68C5E1D9A0E3500371887 /* MMDrawerBarButtonItem.m */,
+				13C68C5F1D9A0E3500371887 /* MMDrawerController.h */,
+				13C68C601D9A0E3500371887 /* MMDrawerController.m */,
+				13C68C611D9A0E3500371887 /* MMDrawerController+Subclass.h */,
+				13C68C621D9A0E3500371887 /* MMDrawerVisualState.h */,
+				13C68C631D9A0E3500371887 /* MMDrawerVisualState.m */,
+				13C68C641D9A0E3500371887 /* UIViewController+MMDrawerController.h */,
+				13C68C651D9A0E3500371887 /* UIViewController+MMDrawerController.m */,
+				13C68C5C1D9A0E3500371887 /* GreenTech-Bridging-Header.h */,
+			);
+			name = MySideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C68BFC1D9A032D00371887 /* GreenTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C68C251D9A032D00371887 /* Build configuration list for PBXNativeTarget "GreenTech" */;
+			buildPhases = (
+				13C68BF91D9A032D00371887 /* Sources */,
+				13C68BFA1D9A032D00371887 /* Frameworks */,
+				13C68BFB1D9A032D00371887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenTech;
+			productName = GreenTech;
+			productReference = 13C68BFD1D9A032D00371887 /* GreenTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13C68C101D9A032D00371887 /* GreenTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C68C281D9A032D00371887 /* Build configuration list for PBXNativeTarget "GreenTechTests" */;
+			buildPhases = (
+				13C68C0D1D9A032D00371887 /* Sources */,
+				13C68C0E1D9A032D00371887 /* Frameworks */,
+				13C68C0F1D9A032D00371887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C68C131D9A032D00371887 /* PBXTargetDependency */,
+			);
+			name = GreenTechTests;
+			productName = GreenTechTests;
+			productReference = 13C68C111D9A032D00371887 /* GreenTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13C68C1B1D9A032D00371887 /* GreenTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C68C2B1D9A032D00371887 /* Build configuration list for PBXNativeTarget "GreenTechUITests" */;
+			buildPhases = (
+				13C68C181D9A032D00371887 /* Sources */,
+				13C68C191D9A032D00371887 /* Frameworks */,
+				13C68C1A1D9A032D00371887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C68C1E1D9A032D00371887 /* PBXTargetDependency */,
+			);
+			name = GreenTechUITests;
+			productName = GreenTechUITests;
+			productReference = 13C68C1C1D9A032D00371887 /* GreenTechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C68BF51D9A032D00371887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Shivani Murali";
+				TargetAttributes = {
+					13C68BFC1D9A032D00371887 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					13C68C101D9A032D00371887 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 13C68BFC1D9A032D00371887;
+					};
+					13C68C1B1D9A032D00371887 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 13C68BFC1D9A032D00371887;
+					};
+				};
+			};
+			buildConfigurationList = 13C68BF81D9A032D00371887 /* Build configuration list for PBXProject "GreenTech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C68BF41D9A032D00371887;
+			productRefGroup = 13C68BFE1D9A032D00371887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C68BFC1D9A032D00371887 /* GreenTech */,
+				13C68C101D9A032D00371887 /* GreenTechTests */,
+				13C68C1B1D9A032D00371887 /* GreenTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C68BFB1D9A032D00371887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C68C0B1D9A032D00371887 /* LaunchScreen.storyboard in Resources */,
+				13C68C081D9A032D00371887 /* Assets.xcassets in Resources */,
+				13C68C061D9A032D00371887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C68C0F1D9A032D00371887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C68C1A1D9A032D00371887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C68BF91D9A032D00371887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F4D1931D9B5AC9002F2777 /* SearchViewController.swift in Sources */,
+				13F4D1951D9B5C35002F2777 /* UploadViewController.swift in Sources */,
+				13F4D1911D9B5962002F2777 /* EducationalViewController.swift in Sources */,
+				13C68C681D9A0E3500371887 /* MMDrawerVisualState.m in Sources */,
+				13C68C031D9A032D00371887 /* ViewController.swift in Sources */,
+				13BD96551D9B4B0F00B78D4A /* MyCustomTableViewCell.swift in Sources */,
+				13C68C691D9A0E3500371887 /* UIViewController+MMDrawerController.m in Sources */,
+				13C68C671D9A0E3500371887 /* MMDrawerController.m in Sources */,
+				13C68C661D9A0E3500371887 /* MMDrawerBarButtonItem.m in Sources */,
+				13C68C311D9A086D00371887 /* LeftSideViewController.swift in Sources */,
+				13C68C011D9A032D00371887 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C68C0D1D9A032D00371887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C68C161D9A032D00371887 /* GreenTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C68C181D9A032D00371887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C68C211D9A032D00371887 /* GreenTechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13C68C131D9A032D00371887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C68BFC1D9A032D00371887 /* GreenTech */;
+			targetProxy = 13C68C121D9A032D00371887 /* PBXContainerItemProxy */;
+		};
+		13C68C1E1D9A032D00371887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C68BFC1D9A032D00371887 /* GreenTech */;
+			targetProxy = 13C68C1D1D9A032D00371887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13C68C041D9A032D00371887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C68C051D9A032D00371887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13C68C091D9A032D00371887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C68C0A1D9A032D00371887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13C68C231D9A032D00371887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13C68C241D9A032D00371887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C68C261D9A032D00371887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GreenTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GreenTech/GreenTech-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13C68C271D9A032D00371887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GreenTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GreenTech/GreenTech-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		13C68C291D9A032D00371887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreenTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenTech.app/GreenTech";
+			};
+			name = Debug;
+		};
+		13C68C2A1D9A032D00371887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreenTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenTech.app/GreenTech";
+			};
+			name = Release;
+		};
+		13C68C2C1D9A032D00371887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreenTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GreenTech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		13C68C2D1D9A032D00371887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreenTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GreenTech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C68BF81D9A032D00371887 /* Build configuration list for PBXProject "GreenTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C68C231D9A032D00371887 /* Debug */,
+				13C68C241D9A032D00371887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C68C251D9A032D00371887 /* Build configuration list for PBXNativeTarget "GreenTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C68C261D9A032D00371887 /* Debug */,
+				13C68C271D9A032D00371887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C68C281D9A032D00371887 /* Build configuration list for PBXNativeTarget "GreenTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C68C291D9A032D00371887 /* Debug */,
+				13C68C2A1D9A032D00371887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C68C2B1D9A032D00371887 /* Build configuration list for PBXNativeTarget "GreenTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C68C2C1D9A032D00371887 /* Debug */,
+				13C68C2D1D9A032D00371887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C68BF51D9A032D00371887 /* Project object */;
+}
