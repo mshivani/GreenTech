@@ -19,6 +19,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     var longPressRecogniser:UILongPressGestureRecognizer!//(target: self, action: "handleLongPress:")
     
+    var lat = 0.0
+    var long = 0.0
+    var name = ""
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -38,7 +43,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         mapView.delegate = self
         
         
-        
+        if(lat != 0.0 && long != 0.0){
+            let annotation = MKPointAnnotation()
+            let coordinate = CLLocationCoordinate2D(latitude: lat, longitude: long)
+            annotation.coordinate = coordinate
+            annotation.title = name
+            mapView.addAnnotation(annotation)
+        }
+
         
     }
  
@@ -58,7 +70,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations.last
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta:    1))
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta:    0.1))
         
         mapView.setRegion(region, animated: true)
         

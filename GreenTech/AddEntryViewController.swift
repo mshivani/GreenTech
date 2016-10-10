@@ -9,6 +9,7 @@
 import UIKit
 
 class AddEntryViewController: UIViewController, UITextFieldDelegate {
+    
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var latLabel: UILabel!
     @IBOutlet weak var longLabel: UILabel!
@@ -58,8 +59,22 @@ class AddEntryViewController: UIViewController, UITextFieldDelegate {
     // MARK: Actions
     @IBAction func addEntry(sender: UIButton) {
         let centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
-        
+        centerViewController.lat = lat
+        centerViewController.long = long
+        centerViewController.name = titleTextField.text!
+        //self.presentViewController(centerViewController, animated:true, completion:nil)
+        //let centerNavController = UINavigationController(rootViewController: centerViewController)
+        //let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        //appDelegate.centerContainer!.centerViewController = centerNavController
+        //appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
         self.presentViewController(centerViewController, animated:true, completion:nil)
+
+    }
+    
+    @IBAction func cancelEntry(sender: UIButton) {
+        let centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        self.presentViewController(centerViewController, animated:true, completion:nil)
+
     }
     
 
