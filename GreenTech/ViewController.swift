@@ -19,7 +19,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     var longPressRecogniser:UILongPressGestureRecognizer!//(target: self, action: "handleLongPress:")
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,6 +41,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         
     }
+ 
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -58,7 +58,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations.last
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta:    1))
         
         mapView.setRegion(region, animated: true)
         
@@ -82,19 +82,21 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let touchPoint = getstureRecognizer.locationInView(self.mapView)
         let touchMapCoordinate = mapView.convertPoint(touchPoint, toCoordinateFromView: mapView)
         
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = touchMapCoordinate
+        //let annotation = MKPointAnnotation()
+        //annotation.coordinate = touchMapCoordinate
         
-        mapView.addAnnotation(annotation)
-        /*
-        let educationalViewController = self.storyboard?.instantiateViewControllerWithIdentifier("EducationalViewController") as! EducationalViewController
-        let educationalNavController = UINavigationController(rootViewController: educationalViewController)
-        let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        appDelegate.centerContainer!.centerViewController = educationalNavController
-        //appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
-        */
+        //mapView.addAnnotation(annotation)
         
         
+        let addEntryViewController = self.storyboard?.instantiateViewControllerWithIdentifier("AddEntryViewController") as! AddEntryViewController
+        addEntryViewController.lat = touchMapCoordinate.latitude
+        addEntryViewController.long = touchMapCoordinate.longitude
+       
+        
+        
+        self.presentViewController(addEntryViewController, animated:true, completion:nil)
+  
+                
     }
     
     

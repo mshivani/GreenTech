@@ -8,12 +8,24 @@
 
 import UIKit
 
-class AddEntryViewController: UIViewController {
+class AddEntryViewController: UIViewController, UITextFieldDelegate {
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var latLabel: UILabel!
+    @IBOutlet weak var longLabel: UILabel!
+
+    @IBOutlet weak var entryLabel: UILabel!
+    
+    var lat = 0.0
+    var long = 0.0
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        titleTextField.delegate = self
+        latLabel.text = String(round(1000 * lat) / 1000)
+        longLabel.text = String(round(1000 * long) / 1000)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +43,24 @@ class AddEntryViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+    // MARK: UITextFieldDelegate
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+
+    func textFieldDidEndEditing(textField: UITextField) {
+        
+    }
+    
+    // MARK: Actions
+    @IBAction func addEntry(sender: UIButton) {
+        let centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        
+        self.presentViewController(centerViewController, animated:true, completion:nil)
+    }
+    
 
 }
