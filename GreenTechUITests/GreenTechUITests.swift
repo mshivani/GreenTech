@@ -28,9 +28,44 @@ class GreenTechUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testMapTab() {
+        let app = XCUIApplication()
+        app.navigationBars["GreenTech.View"].buttons[">>"].tap()
+        app.tables.staticTexts["Maps"].tap()
     }
     
+    func testEducationalTab() {
+        let app = XCUIApplication()
+        app.navigationBars["GreenTech.View"].buttons[">>"].tap()
+        app.tables.staticTexts["Educational"].tap()
+    }
+    
+    func testSearchTab() {
+        let app = XCUIApplication()
+        app.navigationBars["GreenTech.View"].buttons[">>"].tap()
+        app.tables.staticTexts["Search"].tap()
+    }
+    
+    func testUploadTab() {
+        
+        let app = XCUIApplication()
+        app.navigationBars["GreenTech.View"].buttons[">>"].tap()
+        app.tables.staticTexts["Upload"].tap()
+        
+    }
+    
+    func testAddEntry() {
+        
+        
+        
+        let app = XCUIApplication()
+        app.navigationBars["GreenTech.View"].buttons[">>"].tap()
+        app.tables.staticTexts["Maps"].tap()
+        app.pressForDuration(3.0)
+        
+        
+        
+       
+        
+    }
 }

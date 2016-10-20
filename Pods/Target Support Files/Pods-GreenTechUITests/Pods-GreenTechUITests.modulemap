@@ -1,0 +1,6 @@
+framework module Pods_GreenTechUITests {
+  umbrella header "Pods-GreenTechUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
