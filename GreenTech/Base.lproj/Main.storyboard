@@ -64,20 +64,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Educational" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXZ-pB-P6F">
-                                <frame key="frameInset" minX="115" minY="229" width="90" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Educational" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2D-8u-E4N">
+                                <frame key="frameInset" minX="142" minY="323" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="nXZ-pB-P6F" firstAttribute="top" secondItem="LnF-Cm-pz0" secondAttribute="bottom" constant="165" id="FPj-6A-Rdk"/>
-                            <constraint firstItem="95C-Wh-mCw" firstAttribute="top" secondItem="nXZ-pB-P6F" secondAttribute="bottom" constant="318" id="Ia7-Uv-ph0"/>
-                            <constraint firstItem="nXZ-pB-P6F" firstAttribute="centerX" secondItem="FcI-lV-Vdm" secondAttribute="centerX" id="JyZ-xB-SOm"/>
-                            <constraint firstItem="nXZ-pB-P6F" firstAttribute="leading" secondItem="FcI-lV-Vdm" secondAttribute="leadingMargin" constant="99" id="hFe-sl-1K7"/>
-                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="BxX-Nd-EWL">
@@ -106,22 +101,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVu-od-7RQ">
-                                <frame key="frameInset" minX="124" minY="234" width="71" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="T4o-9E-ejo"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpW-Kb-pQE">
+                                <frame key="frameInset" minX="130" minY="323" width="115" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qpn-51-LEZ">
+                                <frame key="frameInset" minX="5" minY="78" height="44" maxX="5"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="jB9-ht-tXF" firstAttribute="top" secondItem="tVu-od-7RQ" secondAttribute="bottom" constant="321" id="IHk-Y8-qnJ"/>
-                            <constraint firstItem="tVu-od-7RQ" firstAttribute="top" secondItem="qqF-vW-7hh" secondAttribute="bottom" constant="206" id="QvS-ub-UtC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tVu-od-7RQ" secondAttribute="trailing" constant="95" id="UZd-bc-90p"/>
-                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Ox5-KC-Opv">
@@ -136,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OGn-mu-Rqb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1132" y="691"/>
+            <point key="canvasLocation" x="1132" y="692"/>
         </scene>
         <!--Upload View Controller-->
         <scene sceneID="6zr-Ag-YHY">
@@ -150,22 +143,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Upload" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQI-1d-MTj">
-                                <frame key="frameInset" minX="129" minY="233" width="63" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="63" id="phX-YX-fR1"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upload" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKx-Sy-QzZ">
+                                <frame key="frameInset" minX="160" minY="323" width="55" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="DQI-1d-MTj" firstAttribute="top" secondItem="ADt-ll-1Gt" secondAttribute="bottom" constant="213" id="5eo-WV-naf"/>
-                            <constraint firstItem="ZOU-dE-cCA" firstAttribute="top" secondItem="DQI-1d-MTj" secondAttribute="bottom" constant="314" id="ij0-ut-OqE"/>
-                            <constraint firstItem="DQI-1d-MTj" firstAttribute="leading" secondItem="ykn-kU-53d" secondAttribute="leading" constant="137" id="wqE-oZ-05J"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KwN-5F-KfA">
                         <barButtonItem key="leftBarButtonItem" title="&gt;&gt;" id="FCD-KB-w0d">
