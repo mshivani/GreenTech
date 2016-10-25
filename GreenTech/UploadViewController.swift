@@ -6,33 +6,53 @@
 //  Copyright © 2016 Shivani Murali. All rights reserved.
 //
 
+import Foundation;
+import MessageUI;
 import UIKit
 
-class UploadViewController: UIViewController {
+class UploadViewController: UIViewController, MFMailComposeViewControllerDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func sendEmail(sender: AnyObject) {
+        let mailComposeController = MFMailComposeViewController()
+        
+        mailComposeController.mailComposeDelegate = self;
+        
+        mailComposeController.setToRecipients(["dearley@udel.edu"])
+        
+        mailComposeController.setSubject("GreenTech Information")
+        
+        mailComposeController.setMessageBody("This is an email", isHTML: false)
+        
+        
+        
+        if MFMailComposeViewController.canSendMail(){
+            
+            self.presentViewController(mailComposeController, animated: true, completion: { () -> Void in })
+            
+        }
+    }
+    
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        
+        controller.dismissViewControllerAnimated(true) { () -> Void in
+            
+        }
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
     @IBAction func leftBarButtonPressed(sender: AnyObject) {
         let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
     }
+    
+    
 }
