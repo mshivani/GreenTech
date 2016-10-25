@@ -243,6 +243,7 @@
 				TargetAttributes = {
 					13C68BFC1D9A032D00371887 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JDZGRT7L2M;
 						LastSwiftMigration = 0800;
 					};
 					13C68C101D9A032D00371887 = {
@@ -461,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JDZGRT7L2M;
 				INFOPLIST_FILE = GreenTech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTech;
@@ -476,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JDZGRT7L2M;
 				INFOPLIST_FILE = GreenTech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.GreenTech;
