@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>854373317889-hbai92ur2aa5siskc7a2cef3mu8nkq8a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.854373317889-hbai92ur2aa5siskc7a2cef3mu8nkq8a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_yQoBps8pQAUGY1Qb37dW_sMn1irHsXU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>854373317889</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>SoftwareEngineering.GreenTech</string>
+	<key>PROJECT_ID</key>
+	<string>greentechapp-c4a2c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>greentechapp-c4a2c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:854373317889:ios:7daf3d2ad9582ef3</string>
+	<key>DATABASE_URL</key>
+	<string>https://greentechapp-c4a2c.firebaseio.com</string>
+</dict>
+</plist>
