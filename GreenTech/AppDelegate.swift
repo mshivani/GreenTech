@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var centerContainer: MMDrawerController?
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         
         // Override point for customization after application launch.
 
@@ -34,7 +36,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window!.rootViewController = centerContainer
         window!.makeKeyAndVisible()
-        
+       
+        return true
+    }
+    
+    func application(application: UIApplication, didFinishLaunchingWithOptions
+        launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FIRApp.configure()
         return true
     }
 

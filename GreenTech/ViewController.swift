@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import Firebase
 
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
@@ -23,6 +24,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     var long = 0.0
     var name = ""
 
+    
+    var ref: FIRDatabaseReference!
+    var sites: [FIRDataSnapshot]! = []
+    var _refHandle: FIRDatabaseHandle!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +58,23 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
 
         
     }
- 
+    
+    /*
+    deinit {
+        self.ref.child("messages").removeObserverWithHandle(_refHandle)
+    }
+    
+    
+    func configureDatabase() {
+        ref = FIRDatabase.database().reference()
+        // Listen for new messages in the Firebase database
+        _refHandle = self.ref.child("messages").observe(.childAdded, with: { [weak self] (snapshot) -> Void in
+            guard let strongSelf = self else { return }
+            strongSelf.messages.append(snapshot)
+            strongSelf.clientTable.insertRows(at: [IndexPath(row: strongSelf.messages.count-1, section: 0)], with: .automatic)
+            })
+    }
+ */
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
