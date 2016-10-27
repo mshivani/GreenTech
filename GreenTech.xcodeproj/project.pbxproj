@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131748091DC18E3400E9E979 /* EduFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131748081DC18E3400E9E979 /* EduFormViewController.swift */; };
 		138BCDFF1DC1511C003BF3DB /* EducationalFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138BCDFE1DC1511C003BF3DB /* EducationalFormViewController.swift */; };
 		138E20E01DA5FDD8001860E2 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E20DF1DA5FDD8001860E2 /* AddEntryViewController.swift */; };
 		13BD96551D9B4B0F00B78D4A /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD96541D9B4B0F00B78D4A /* MyCustomTableViewCell.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		069BDECA4988494776860D7A /* Pods-GreenTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenTech/Pods-GreenTech.release.xcconfig"; sourceTree = "<group>"; };
+		131748081DC18E3400E9E979 /* EduFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EduFormViewController.swift; sourceTree = "<group>"; };
 		138BCDFE1DC1511C003BF3DB /* EducationalFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationalFormViewController.swift; sourceTree = "<group>"; };
 		138E20DF1DA5FDD8001860E2 /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
 		13BD96541D9B4B0F00B78D4A /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				13F4D1941D9B5C35002F2777 /* UploadViewController.swift */,
 				138E20DF1DA5FDD8001860E2 /* AddEntryViewController.swift */,
 				138BCDFE1DC1511C003BF3DB /* EducationalFormViewController.swift */,
+				131748081DC18E3400E9E979 /* EduFormViewController.swift */,
 			);
 			path = GreenTech;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 			files = (
 				CB186B9E1DC17DDF00EC886D /* Site.swift in Sources */,
 				13F4D1931D9B5AC9002F2777 /* SearchViewController.swift in Sources */,
+				131748091DC18E3400E9E979 /* EduFormViewController.swift in Sources */,
 				13F4D1951D9B5C35002F2777 /* UploadViewController.swift in Sources */,
 				13F4D1911D9B5962002F2777 /* EducationalViewController.swift in Sources */,
 				13C68C681D9A0E3500371887 /* MMDrawerVisualState.m in Sources */,
