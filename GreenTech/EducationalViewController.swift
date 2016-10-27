@@ -36,5 +36,13 @@ class EducationalViewController: UIViewController {
         let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
     }
+    @IBAction func AddNewResourceButtonPressed(sender: UIButton) {
+        
+        let eduFormViewController = self.storyboard?.instantiateViewControllerWithIdentifier("EduFormViewController") as! EduFormViewController
+        
+        self.presentViewController(eduFormViewController, animated:true, completion:nil)
+
+
+    }
     
 }
