@@ -49,8 +49,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         mapView.showsUserLocation = true
         mapView.delegate = self
         
-        ref = FIRDatabase.database().reference()
-        sitesRef = ref.child("sites")
+        //ref = FIRDatabase.database().reference()
+        //sitesRef = ref.child("sites")
     
         
         if(lat != 0.0 && long != 0.0){
