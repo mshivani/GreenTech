@@ -31,6 +31,9 @@
 		CB186B9A1DC172F500EC886D /* GoogleService-Info(1).plist in Resources */ = {isa = PBXBuildFile; fileRef = CB186B991DC172F500EC886D /* GoogleService-Info(1).plist */; };
 		CB186B9B1DC172F500EC886D /* GoogleService-Info(1).plist in Resources */ = {isa = PBXBuildFile; fileRef = CB186B991DC172F500EC886D /* GoogleService-Info(1).plist */; };
 		CB186B9C1DC172F500EC886D /* GoogleService-Info(1).plist in Resources */ = {isa = PBXBuildFile; fileRef = CB186B991DC172F500EC886D /* GoogleService-Info(1).plist */; };
+		CB186B9E1DC17DDF00EC886D /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB186B9D1DC17DDF00EC886D /* Site.swift */; };
+		CB186B9F1DC17DDF00EC886D /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB186B9D1DC17DDF00EC886D /* Site.swift */; };
+		CB186BA01DC17DDF00EC886D /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB186B9D1DC17DDF00EC886D /* Site.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,7 @@
 		C94DD85611A8C9F00423ACBC /* Pods_GreenTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenTechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAF3B291659C399786E373E /* Pods-GreenTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTechUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenTechUITests/Pods-GreenTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB186B991DC172F500EC886D /* GoogleService-Info(1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info(1).plist"; sourceTree = "<group>"; };
+		CB186B9D1DC17DDF00EC886D /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
 		D9907748E70E46273BD995A2 /* Pods-GreenTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTechUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenTechUITests/Pods-GreenTechUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +153,7 @@
 				13C68C411D9A0C2900371887 /* MySideMenu */,
 				13C68C001D9A032D00371887 /* AppDelegate.swift */,
 				13C68C021D9A032D00371887 /* ViewController.swift */,
+				CB186B9D1DC17DDF00EC886D /* Site.swift */,
 				13C68C041D9A032D00371887 /* Main.storyboard */,
 				13C68C071D9A032D00371887 /* Assets.xcassets */,
 				13C68C091D9A032D00371887 /* LaunchScreen.storyboard */,
@@ -508,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB186B9E1DC17DDF00EC886D /* Site.swift in Sources */,
 				13F4D1931D9B5AC9002F2777 /* SearchViewController.swift in Sources */,
 				13F4D1951D9B5C35002F2777 /* UploadViewController.swift in Sources */,
 				13F4D1911D9B5962002F2777 /* EducationalViewController.swift in Sources */,
@@ -528,6 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB186B9F1DC17DDF00EC886D /* Site.swift in Sources */,
 				13C68C161D9A032D00371887 /* GreenTechTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB186BA01DC17DDF00EC886D /* Site.swift in Sources */,
 				13C68C211D9A032D00371887 /* GreenTechUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
