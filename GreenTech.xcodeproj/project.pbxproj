@@ -28,8 +28,6 @@
 		13F4D1951D9B5C35002F2777 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F4D1941D9B5C35002F2777 /* UploadViewController.swift */; };
 		60ED769E499124A026D50425 /* Pods_GreenTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB649E510AF9B29C4905AC99 /* Pods_GreenTech.framework */; };
 		6FAE35A57312FA15AD180618 /* Pods_GreenTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FEF074E8B05969BC76626F /* Pods_GreenTechTests.framework */; };
-		915E48111DD3D60800B8B98C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915E480A1DD3D5FB00B8B98C /* Charts.framework */; };
-		915E48121DD3D60800B8B98C /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915E480A1DD3D5FB00B8B98C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		915E48171DD3D71900B8B98C /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E48161DD3D71900B8B98C /* GraphViewController.swift */; };
 		915E48191DD3D95F00B8B98C /* CreateGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E48181DD3D95F00B8B98C /* CreateGraphViewController.swift */; };
 		AF17B081F3CBEE2851AC4A53 /* Pods_GreenTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DD85611A8C9F00423ACBC /* Pods_GreenTechUITests.framework */; };
@@ -56,41 +54,6 @@
 			remoteGlobalIDString = 13C68BFC1D9A032D00371887;
 			remoteInfo = GreenTech;
 		};
-		915E48091DD3D5FB00B8B98C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F241D8110E600722320;
-			remoteInfo = Charts;
-		};
-		915E480B1DD3D5FB00B8B98C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F2E1D8110E600722320;
-			remoteInfo = ChartsTests;
-		};
-		915E480D1DD3D5FB00B8B98C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06B120D51D811E6200D14B02;
-			remoteInfo = ChartsRealm;
-		};
-		915E480F1DD3D5FB00B8B98C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06B120FF1D811F1600D14B02;
-			remoteInfo = ChartsRealmTests;
-		};
-		915E48131DD3D60800B8B98C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 06165F231D8110E600722320;
-			remoteInfo = Charts;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,7 +63,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				915E48121DD3D60800B8B98C /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +104,6 @@
 		13F4D1941D9B5C35002F2777 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		17FEF074E8B05969BC76626F /* Pods_GreenTechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenTechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7560C136D49414A41BF7FA /* Pods-GreenTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenTech/Pods-GreenTech.debug.xcconfig"; sourceTree = "<group>"; };
-		915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Classes/Xcode API stuff/Charts-2.3.0/Charts.xcodeproj"; sourceTree = "<group>"; };
 		915E48161DD3D71900B8B98C /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		915E48181DD3D95F00B8B98C /* CreateGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGraphViewController.swift; sourceTree = "<group>"; };
 		9EED05780EB8579CDC4EE0B8 /* Pods-GreenTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenTechTests/Pods-GreenTechTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60ED769E499124A026D50425 /* Pods_GreenTech.framework in Frameworks */,
-				915E48111DD3D60800B8B98C /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +147,6 @@
 		13C68BF41D9A032D00371887 = {
 			isa = PBXGroup;
 			children = (
-				915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */,
 				13C68BFF1D9A032D00371887 /* GreenTech */,
 				13C68C141D9A032D00371887 /* GreenTechTests */,
 				13C68C1F1D9A032D00371887 /* GreenTechUITests */,
@@ -291,17 +250,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		915E48031DD3D5FA00B8B98C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				915E480A1DD3D5FB00B8B98C /* Charts.framework */,
-				915E480C1DD3D5FB00B8B98C /* ChartsTests.xctest */,
-				915E480E1DD3D5FB00B8B98C /* ChartsRealm.framework */,
-				915E48101DD3D5FB00B8B98C /* ChartsRealmTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -320,7 +268,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				915E48141DD3D60800B8B98C /* PBXTargetDependency */,
 			);
 			name = GreenTech;
 			productName = GreenTech;
@@ -407,12 +354,6 @@
 			mainGroup = 13C68BF41D9A032D00371887;
 			productRefGroup = 13C68BFE1D9A032D00371887 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 915E48031DD3D5FA00B8B98C /* Products */;
-					ProjectRef = 915E48021DD3D5FA00B8B98C /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				13C68BFC1D9A032D00371887 /* GreenTech */,
@@ -421,37 +362,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		915E480A1DD3D5FB00B8B98C /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 915E48091DD3D5FB00B8B98C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		915E480C1DD3D5FB00B8B98C /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 915E480B1DD3D5FB00B8B98C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		915E480E1DD3D5FB00B8B98C /* ChartsRealm.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ChartsRealm.framework;
-			remoteRef = 915E480D1DD3D5FB00B8B98C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		915E48101DD3D5FB00B8B98C /* ChartsRealmTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsRealmTests.xctest;
-			remoteRef = 915E480F1DD3D5FB00B8B98C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		13C68BFB1D9A032D00371887 /* Resources */ = {
@@ -676,11 +586,6 @@
 			isa = PBXTargetDependency;
 			target = 13C68BFC1D9A032D00371887 /* GreenTech */;
 			targetProxy = 13C68C1D1D9A032D00371887 /* PBXContainerItemProxy */;
-		};
-		915E48141DD3D60800B8B98C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = 915E48131DD3D60800B8B98C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
