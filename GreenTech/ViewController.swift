@@ -127,13 +127,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         
         let addEntryViewController = self.storyboard?.instantiateViewControllerWithIdentifier("AddEntryViewController") as! AddEntryViewController
+        
         addEntryViewController.lat = touchMapCoordinate.latitude
         addEntryViewController.long = touchMapCoordinate.longitude
        
         
         
         self.presentViewController(addEntryViewController, animated:true, completion:nil)
-  
+        
                 
     }
     

@@ -33,8 +33,6 @@ class EduFormViewController: UIViewController {
     */
 
     @IBAction func CancelButtonPressed(sender: UIButton) {
-        let centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("EducationalViewController") as! EducationalViewController
-        self.presentViewController(centerViewController, animated:true, completion:nil)
-
+         self.presentingViewController!.dismissViewControllerAnimated(false, completion: nil)
     }
 }

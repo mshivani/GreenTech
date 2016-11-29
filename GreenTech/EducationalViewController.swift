@@ -38,10 +38,11 @@ class EducationalViewController: UIViewController {
     }
     @IBAction func AddNewResourceButtonPressed(sender: UIButton) {
         
-        let eduFormViewController = self.storyboard?.instantiateViewControllerWithIdentifier("EduFormViewController") as! EduFormViewController
+     /*   let eduFormViewController = self.storyboard?.instantiateViewControllerWithIdentifier("EduFormViewController") as! EduFormViewController
         
         self.presentViewController(eduFormViewController, animated:true, completion:nil)
-
+*/
+        self.performSegueWithIdentifier("EduFormSegue", sender: self)
 
     }
     

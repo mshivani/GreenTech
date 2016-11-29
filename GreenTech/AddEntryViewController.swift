@@ -68,12 +68,11 @@ class AddEntryViewController: UIViewController, UITextFieldDelegate {
         //appDelegate.centerContainer!.centerViewController = centerNavController
         //appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
         self.presentViewController(centerViewController, animated:true, completion:nil)
-
+      
     }
     
     @IBAction func cancelEntry(sender: UIButton) {
-        let centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
-        self.presentViewController(centerViewController, animated:true, completion:nil)
+        self.presentingViewController!.dismissViewControllerAnimated(false, completion: nil)
 
     }
     
