@@ -31,19 +31,21 @@ class EducationalViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+  /*  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "EduFormSegue" {
+            if let destination = segue.destinationViewController as? EduFormViewController {
+                destination.lat = self.lat
+            }
+        }
+    }*/
 
     @IBAction func leftSideButton(sender: AnyObject) {
         let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
     }
     @IBAction func AddNewResourceButtonPressed(sender: UIButton) {
-        
-     /*   let eduFormViewController = self.storyboard?.instantiateViewControllerWithIdentifier("EduFormViewController") as! EduFormViewController
-        
-        self.presentViewController(eduFormViewController, animated:true, completion:nil)
-*/
         self.performSegueWithIdentifier("EduFormSegue", sender: self)
-
     }
     
 }

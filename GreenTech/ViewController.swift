@@ -132,14 +132,22 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         addEntryViewController.long = touchMapCoordinate.longitude
        
         
-        
         self.presentViewController(addEntryViewController, animated:true, completion:nil)
         
                 
     }
     
     
-    
+   /* override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "AddEntrySegue" {
+            if let destination = segue.destinationViewController as? AddEntryViewController {
+                destination.lat = self.lat
+                destination.long = self.long
+                destination.titleTextField.text! = self.name
+            }
+        }
+    }*/
+
     
     
 }
