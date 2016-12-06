@@ -76,7 +76,6 @@ class AddEntryViewController: UIViewController, UITextFieldDelegate {
         let centerNavController = UINavigationController(rootViewController: centerViewController)
         let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.centerContainer!.centerViewController = centerNavController
-        appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
 
         self.presentingViewController!.dismissViewControllerAnimated(false, completion: nil)
 
