@@ -13,6 +13,11 @@ class AddEntryViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var latLabel: UILabel!
     @IBOutlet weak var longLabel: UILabel!
+    @IBOutlet weak var typeTextField: UITextField!
+    @IBOutlet weak var statusTextField: UITextField!
+    @IBOutlet weak var powerTextField: UITextField!
+    @IBOutlet weak var fuelTextField: UITextField!
+    @IBOutlet weak var secondaryFuelTextField: UITextField!
 
     @IBOutlet weak var entryLabel: UILabel!
     
@@ -63,6 +68,11 @@ class AddEntryViewController: UIViewController, UITextFieldDelegate {
         centerViewController.lat = lat
         centerViewController.long = long
         centerViewController.name = titleTextField.text!
+        centerViewController.type = typeTextField.text!
+        centerViewController.status = statusTextField.text!
+        centerViewController.power = powerTextField.text!
+        centerViewController.fuel = fuelTextField.text!
+        centerViewController.secondaryFuel = secondaryFuelTextField.text!
         let centerNavController = UINavigationController(rootViewController: centerViewController)
         let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.centerContainer!.centerViewController = centerNavController

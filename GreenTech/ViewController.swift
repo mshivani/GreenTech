@@ -23,7 +23,12 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     var lat = 0.0
     var long = 0.0
     var name = ""
-
+    var type = ""
+    var status = ""
+    var power = ""
+    var fuel = ""
+    var secondaryFuel = ""
+    
     
     var ref: FIRDatabaseReference!
     var sitesRef: FIRDatabaseReference!
@@ -58,6 +63,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             let coordinate = CLLocationCoordinate2D(latitude: lat, longitude: long)
             annotation.coordinate = coordinate
             annotation.title = name
+            annotation.subtitle = type
             mapView.addAnnotation(annotation)
         }
 

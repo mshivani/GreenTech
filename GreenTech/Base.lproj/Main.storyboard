@@ -590,9 +590,14 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="entryLabel" destination="hb8-i4-tfr" id="j9t-JV-9D8"/>
+                        <outlet property="fuelTextField" destination="ei7-p8-LB0" id="h28-qs-rfc"/>
                         <outlet property="latLabel" destination="dpV-cP-ybc" id="cW8-OO-3Cy"/>
                         <outlet property="longLabel" destination="lhF-gc-QdM" id="Esv-aw-Vga"/>
+                        <outlet property="powerTextField" destination="BLI-Re-agG" id="70n-cs-raq"/>
+                        <outlet property="secondaryFuelTextField" destination="OJr-hH-f50" id="7bA-wQ-y2D"/>
+                        <outlet property="statusTextField" destination="lNP-M0-xZz" id="XeN-yh-Tc1"/>
                         <outlet property="titleTextField" destination="Ava-dF-SaZ" id="bdv-lh-SOh"/>
+                        <outlet property="typeTextField" destination="8wW-BX-EJ7" id="eRT-hy-0cu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJU-al-H33" userLabel="First Responder" sceneMemberID="firstResponder"/>
