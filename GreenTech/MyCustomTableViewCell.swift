@@ -12,6 +12,12 @@ class MyCustomTableViewCell: UITableViewCell {
 
     @IBOutlet weak var menuItemLabel: UILabel!
     
+  
+    @IBOutlet weak var resourceTitleLabel: UILabel!
+   
+    @IBOutlet weak var resourceLinkLabel: UILabel!
+    
+    @IBOutlet weak var resourceDescriptionLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

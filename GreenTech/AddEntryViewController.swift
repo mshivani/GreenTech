@@ -28,6 +28,11 @@ class AddEntryViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         titleTextField.delegate = self
+        typeTextField.delegate = self;
+        statusTextField.delegate = self;
+        powerTextField.delegate = self;
+        fuelTextField.delegate = self;
+        secondaryFuelTextField.delegate = self;
         latLabel.text = String(round(1000 * lat) / 1000)
         longLabel.text = String(round(1000 * long) / 1000)
         
